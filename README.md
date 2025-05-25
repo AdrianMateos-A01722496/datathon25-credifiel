@@ -59,7 +59,7 @@ Con el modelo predictivo, se desarrolló un framework conceptual para una estrat
     6.  La estrategia elige el servicio bancario que maximiza el VEN. Si ningún servicio ofrece un VEN positivo, la estrategia podría sugerir no realizar el intento por ese canal o en ese momento.
 *   **Simulación:** Se incluyó un ejemplo de cómo simular esta lógica de decisión sobre una muestra de intentos históricos para comparar los resultados de la estrategia optimizada con los resultados reales.
 
-## Cómo Utilizar el Código
+## Cómo Utilizar el Código (optimizacion_cobranza.ipynb)
 
 1.  **Entorno:** Asegúrate de tener Python y las librerías listadas en el notebook instaladas (principalmente `pandas`, `numpy`, `scikit-learn`, `matplotlib`, `seaborn`).
 2.  **Archivos de Datos:** Coloca todos los archivos `.csv` requeridos en el mismo directorio que el notebook `optimizacion_cobranza.ipynb`.
