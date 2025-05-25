@@ -75,3 +75,7 @@ Con el modelo predictivo, se desarrolló un framework conceptual para una estrat
 *   Incorporar restricciones operativas más detalladas en la lógica de decisión (e.g., horarios límite de envío de forma dinámica).
 *   Desarrollar una estrategia para manejar los pagos críticos (2do y 5to pago) de manera más específica si el modelo general no los prioriza suficientemente.
 *   Implementar un sistema de monitoreo y reentrenamiento periódico del modelo y la estrategia.
+
+  ## Aporte Adicional – Análisis de Eficiencia Bancaria y Segmentación de Clientes
+
+En este proyecto analizamos la eficiencia de los bancos en el proceso de cobranza de CrediFiel. Primero unimos las bases de datos de distintos años y limpiamos la información, identificando casos donde no se había cobrado nada y analizando el tiempo que tardan los bancos en dar respuesta. Creamos una nueva métrica llamada dias_respuesta_banco y visualizamos la distribución con gráficas claras, como un pastel y una de barras con porcentajes. A partir de los resultados, propusimos una segmentación de clientes en tres grupos (Confiable, Tentativo y Stand by) y sugerimos estrategias de cobranza específicas para cada uno, priorizando ya sea el costo, la rapidez o la eficiencia por éxito. Todo el análisis se hizo pensando en optimizar costos y mejorar la recuperación de pagos.
